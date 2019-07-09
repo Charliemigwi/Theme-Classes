@@ -3,12 +3,20 @@ $(document).ready(function(){
     $("body").removeClass();
     $("body").addClass("green-background");
   });
-  $("button#yellow").click(function) {
+
+  $("button#yellow").click(function() {
     $("body").removeClass();
     $("body").addClass("yellow-background");
   });
-  $("button#red").click(function) {
+
+  $("button#red").click(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
   });
+
+  $("button#white").click(function() {
+    $("body").removeClass();
+    $("body").addClass("white-background");
+  });
+
 });
